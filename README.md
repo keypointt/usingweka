@@ -1,6 +1,6 @@
 # README #
 
-cannot launch weka-GUI at first, since I used ant for building, and java config is changed to openJDK (while I'm using Oracle_JDK), so I changed the java config to oracle_jdk.
+cannot launch weka-GUI at first, since before this usingWeka project, I used ant for building the whole weka source code (weka project), and java config is changed to openJDK (while I'm using Oracle_JDK) by stupidly installing ant on my machine, so I changed the java config to oracle_jdk.
 
 Steps:
 
