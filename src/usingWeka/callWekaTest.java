@@ -28,7 +28,7 @@ public class callWekaTest {
     // load data
     ArffLoader loader = new ArffLoader();
 //    loader.setFile(new File(args[0]));
-    loader.setFile(new File("/home/xin/workspace/usingWeka/dataSet/cpu.arff"));
+    loader.setFile(new File("/home/xin/workspace/usingWeka/dataSet/weather.nominal.arff"));
     
     
     Instances structure = loader.getStructure();
