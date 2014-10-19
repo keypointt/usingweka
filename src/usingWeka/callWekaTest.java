@@ -32,9 +32,9 @@ public class callWekaTest {
     
     
     Instances structure = loader.getStructure();
-    structure.setClassIndex(structure.numAttributes() - 1);
+    structure.setClassIndex(structure.numAttributes() - 1); // @xr 制定最后一列是label或者activity
 
-    // train NaiveBayes
+    // train NaiveBayes，@xr 或者这里可以随便写别的算法
     NaiveBayesUpdateable nb = new NaiveBayesUpdateable();
     nb.buildClassifier(structure);
     Instance current;
