@@ -1,5 +1,7 @@
 # README #
 
+##新版的weka的manual里有一章“Chapter 16 Using the API”，专门讲API的##
+
 cannot launch weka-GUI at first, since before this usingWeka project, I used ant for building the whole weka source code (weka project), and java config is changed to openJDK (while I'm using Oracle_JDK) by stupidly installing ant on my machine, so I changed the java config to oracle_jdk.
 
 Steps:
