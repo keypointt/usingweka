@@ -69,7 +69,7 @@ public class anotherWekaTest {
 	}
 
 	public static void main(String[] args) throws Exception {
-		BufferedReader datafile = readDataFile("/home/xin/workspace/usingWeka/dataSet/weather.nominal.arff");
+		BufferedReader datafile = readDataFile("/Users/renxin/Documents/workspace/RecommendationSystem/dataSet/weather.nominal.arff");
 
 		Instances data = new Instances(datafile);
 		data.setClassIndex(data.numAttributes() - 1);
