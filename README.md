@@ -1,5 +1,14 @@
 # README #
 
+## Jan-10-2015: lauching my personal project - recommendation system##
+Basically the idea is, using Weka clustering algorithms, to build multiple clustering models.
+And maybe later, I'll try to re-write it in python, since there are more powerful libs in python.
+
+A data set resource of movie ratings: http://grouplens.org/datasets/movielens/
+weka-3.6
+
+ps: basically, I'm using my weekend to build this, and also weekday nights after work if free.
+
 ##新版的weka的manual里有一章“Chapter 16 Using the API”，专门讲API的##
 
 cannot launch weka-GUI at first, since before this usingWeka project, I used ant for building the whole weka source code (weka project), and java config is changed to openJDK (while I'm using Oracle_JDK) by stupidly installing ant on my machine, so I changed the java config to oracle_jdk.

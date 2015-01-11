@@ -13,8 +13,8 @@ import weka.classifiers.trees.J48;
 import weka.core.FastVector;
 import weka.core.Instances;
 
-public class anotherWekaTest {
-	
+public class MultiClassifierAccuracyTest {
+
 	// 读入数据
 	public static BufferedReader readDataFile(String filename) {
 		BufferedReader inputReader = null;
@@ -56,7 +56,8 @@ public class anotherWekaTest {
 	// 这里用了cross-validation
 	public static Instances[][] crossValidationSplit(Instances data,
 			int numberOfFolds) {
-		
+
+		// @xr, i=2, training&testing
 		Instances[][] split = new Instances[2][numberOfFolds];
 
 		// 对于每个folder，都来一次
@@ -81,7 +82,8 @@ public class anotherWekaTest {
 		Instances[] trainingSplits = split[0];
 		Instances[] testingSplits = split[1];
 
-		// Use a set of classifiers @xr 这里非常重要！直接把classifier扔到一个数组里，数组传给Evaluation类
+		// Use a set of classifiers @xr
+		// 这里非常重要！直接把classifier扔到一个数组里，数组传给Evaluation类
 		Classifier[] models = { new J48(), // a decision tree
 				new PART(), new DecisionTable(),// decision table majority
 												// classifier

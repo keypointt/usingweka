@@ -15,7 +15,7 @@ import java.io.File;
  *
  * @author FracPete (fracpete at waikato dot ac dot nz)
  */
-public class callWekaTest {
+public class NaiveBayesTest {
 
   /**
    * Expects an ARFF file as first argument (class attribute is assumed
