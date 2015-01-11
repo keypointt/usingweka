@@ -4,8 +4,11 @@
 Basically the idea is, using Weka clustering algorithms, to build multiple clustering models.
 And maybe later, I'll try to re-write it in python, since there are more powerful libs in python.
 
+Weka tutorial: http://weka.wikispaces.com/Use+WEKA+in+your+Java+code#Classification
+
 A data set resource of movie ratings: http://grouplens.org/datasets/movielens/
-weka-3.6
+
+Version: weka-3.6
 
 ps: basically, I'm using my weekend to build this, and also weekday nights after work if free.
 
