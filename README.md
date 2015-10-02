@@ -1,6 +1,31 @@
 # README #
 
-## Jan-10-2015: lauching my personal project - recommendation system##
+## Oct-2-2015: try python-weka-wrapper
+
+ref:  
+https://github.com/fracpete/python-weka-wrapper
+https://github.com/fracpete/python-weka-wrapper-examples
+
+	
+1. Mac OSX, install:
+
+	$ pip install javabridge
+	
+	$ pip install python-weka-wrapper
+
+javabridge>=1.0.11 in /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages (from python-weka-wrapper)
+
+
+2. PyDev-python-path, add:
+
+	external library: "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages"
+	
+	add source folder as library: "${PROJ_DIR_NAME}/src/pythonWekaWrapper"
+
+3. run each individual examples and should be running properly
+
+
+## Jan-10-2015: recommendation system##
 Basically the idea is, using Weka clustering algorithms, to build multiple clustering models.
 And maybe later, I'll try to re-write it in python, since there are more powerful libs in python.
 
